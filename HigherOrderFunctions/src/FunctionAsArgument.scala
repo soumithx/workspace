@@ -1,5 +1,3 @@
-
-
 object FunctionAsArgument {
   val double = (i:Int) => i*2
   val triple = (i:Int) => i*3
@@ -13,7 +11,6 @@ object FunctionAsArgument {
    println( sayHello("Soumith"))
    var x= 10
    val m = (i:Int) => i * x
-   
    println(m(5))
   }
   
