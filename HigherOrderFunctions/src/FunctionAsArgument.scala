@@ -11,6 +11,10 @@ object FunctionAsArgument {
    println( HigherOrder(6,double))
     println(HigherOrder(10,triple))
    println( sayHello("Soumith"))
+   var x= 10
+   val m = (i:Int) => i * x
+   
+   println(m(5))
   }
   
 }
