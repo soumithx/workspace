@@ -6,9 +6,11 @@ object FunctionAsArgument {
   def HigherOrder(x:Int,y:Int=>Int):Int={
     y(x)
   }
+  def sayHello = (name:String) => {"Hello "+ " " +name}
   def main(args:Array[String]){
    println( HigherOrder(6,double))
     println(HigherOrder(10,triple))
+   println( sayHello("Soumith"))
   }
   
 }
