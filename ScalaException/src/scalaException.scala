@@ -6,7 +6,7 @@ object scalaException {
     try {
       val x = fromFile("src/sss.txt").getLines()
     }catch{
-      /*case e:FileNotFoundException => println("Check your file")*/
+      case e:FileNotFoundException => println("Check your file")
       case _:Exception => println("Check your program")
     }
   }
