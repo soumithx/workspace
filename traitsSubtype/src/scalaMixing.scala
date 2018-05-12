@@ -8,13 +8,13 @@ class y(s:String) extends x{
   private var i = 0
   def hasNext = i<s.length
   def next() ={
-    val ch = s charAt i
-    i += 1
+    val ch = s(i)
+    i += 1  
     ch
   }
 }
 trait Rich extends x{
-  def foreach(f:T => Unit):Unit = while(hasNext) f(next())
+  def foreac(f:T => Unit):Unit = {while(hasNext) f(next())}
 }
 class s extends y("Scala")with Rich{
   
