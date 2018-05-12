@@ -2,10 +2,10 @@
 
 object traits{
   def main(args:Array[String]){
-val iretator = new traitExample(10)
+val iretator = new car("Tesla","2017")
 
-println(iretator.age())
-println(iretator.age())
-println(iretator.age())
+println(iretator.carName)
+println(iretator.carYear)
+
 }
 }
